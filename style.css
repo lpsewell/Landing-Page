@@ -1,11 +1,14 @@
 .body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 24px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family:  'Roboto', arial
 }
 
-
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
 .container-one {
    background-color: #1F2937;
    /* display: flex;
@@ -110,27 +113,39 @@ button {
     background-color: #3882F6;
     display: flex;
     align-items: center;
-  justify-content: center;
-  flex-direction: row;
   height: 200px;
   color: #FFF;
-  gap: 8px;
-  margin: 32px;
-  border-radius: 4px
+  margin: 50px 200px;
+  padding: 10px 80px;
+  border-radius: 5px
+}
+
+.sign-item {
+    flex: 1;
+}
+.signs-text {
+    text-align: left;
+}
+.signs-text p {
+    color: #fff;
+    opacity: 0.7;
+    margin: 5px 30px 30px 50px;
+}
+h3 {
+    color: #fff;
+    font-family: "Roboto", arial;
+    padding: 0;
+    margin: 30px 0px 0px 50px;
+
 }
 .CTA-button {
     border: 1px solid #FFF;
+    padding: 5px 25px
 }
 .footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 52px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background: #1F2937;
-  padding: 16px;
-  color: #FFF
+  font-family: 'Roboto', arial;
+  color: #FFF;
+  text-align: center;
+  padding: 16px
 }
